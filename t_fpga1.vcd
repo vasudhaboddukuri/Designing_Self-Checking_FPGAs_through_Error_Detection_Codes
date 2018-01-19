@@ -1,0 +1,80 @@
+$date
+	Sun Apr 16 23:52:27 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module t_fpga1 $end
+$var wire 1 ! e $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ c $end
+$var reg 1 % d $end
+$scope module M1 $end
+$var wire 1 " a $end
+$var wire 1 # b $end
+$var wire 1 $ c $end
+$var wire 1 % d $end
+$var wire 1 ! e $end
+$var wire 1 & w1 $end
+$var wire 1 ' w2 $end
+$var wire 1 ( w3 $end
+$var wire 1 ) w4 $end
+$var wire 1 * w5 $end
+$var wire 1 + w6 $end
+$var wire 1 , w7 $end
+$var wire 1 - w8 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0-
+0,
+0+
+0*
+1)
+1(
+1'
+1&
+0%
+0$
+0#
+0"
+0!
+$end
+#10000
+1!
+0'
+0&
+1+
+1#
+1"
+#20000
+0)
+1*
+1%
+#30000
+1&
+0+
+0"
+#40000
+1,
+1'
+0#
+#50000
+0,
+0&
+1"
+#60000
+0!
+0*
+0(
+0'
+0+
+1$
+1#
+#70000
